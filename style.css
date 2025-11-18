@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+.card-group {
+    text-shadow: 2px 2px 6px black;
+}
+
+.card {
+    margin: 20px;
+
+}
+
+.card-group img {
+    height: 400px;
+}
+
+.img-fluid {
+    height: 500px;
+}
