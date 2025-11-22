@@ -21,13 +21,17 @@
             position: relative;
 
         }
+        .bg-color{
+            background-color: rgba(20, 20, 23, 0.893);
+        }
 
        .txtShadow {
             text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
         }
-         .txtw{
-            text-shadow: 3px 3px 6px rgb(251, 255, 255);
-        } 
+       
+        .color{
+            background-color: rgb(36, 40, 42);
+        }
 
 
         .banner img {
@@ -46,7 +50,7 @@
     </style>
 </head>
 
-<body class="bg-dark text-light">
+<body class="bg-color text-light">
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary">
@@ -75,7 +79,7 @@
     </nav>
 
     <!-- BANNER -->
-    <div class="banner mb-4 opacity-80">
+    <div class="banner mb-4 border-bottom border-secondary opacity-80">
         <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80" alt="banner">
 
         <div class="banner-text text-center text-white">
@@ -95,10 +99,10 @@
         <div class="row g-4">
 
             <div class="col-md-4">
-                <div class="card bg-secondary text-white h-100">
+                <div class="card bg-secondary text-white  h-100">
                     <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="project.html" class="text-decoration-none link-dark txtw">Projects</a></h5>
+                    <div class="card-body color">
+                        <h5 class="card-title"><a href="project.html" target="_blank" class="text-decoration-none ">Projects</a></h5>
                         <p class="card-text">This is my self made projects which I made.</p>
                     </div>
                 </div>
@@ -108,8 +112,8 @@
             <div class="col-md-4">
                 <div class="card bg-secondary text-white h-100">
                     <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="https://www.blogger.com/blog/stats/week/862285449360354531" class="text-decoration-none link-dark txtw">Blogs</a></h5>
+                    <div class="card-body color">
+                        <h5 class="card-title"><a href="https://www.blogger.com/blog/stats/week/862285449360354531" target="_blank" class="text-decoration-none ">Blogs</a></h5>
                         <p class="card-text">I have made some blogs on my skills.</p>
                     </div>
                 </div>
@@ -119,8 +123,8 @@
             <div class="col-md-4">
                 <div class="card bg-secondary text-white h-100">
                     <img src="https://images.unsplash.com/photo-1654277041218-84424c78f0ae" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="https://anshulvishwakarma9.github.io/home_website/" class="text-decoration-none link-dark txtw">Github</a></h5>
+                    <div class="card-body color">
+                        <h5 class="card-title"><a href="https://github.com/AnshulVishwakarma9" target="_blank" class="text-decoration-none ">Github</a></h5>
                         <p>This is my Github profile where my work is stored.</p>
                     </div>
                 </div>
@@ -130,7 +134,7 @@
     </div>
 
     <!-- FOOTER -->
-    <footer class="container-fluid text-white py-5 txtShadow mt-4 margin $gray-800">
+    <footer class="container-fluid text-white py-5 txtShadow mt-4 margin bg-dark border-top border-top-primary">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-4">
@@ -141,14 +145,14 @@
                     <h6 class="fw-bold">Links</h6>
                     <ul class="list-unstyled opacity-75">
                         <li><a href="/" class="text-white text-decoration-none">Home</a></li>
-                        <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
-                        <li><a href="service.html" class="text-white text-decoration-none">Services</a></li>
-                        <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+                        <li><a href="about.html" target="_blank" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="service.html"  target="_blank" class="text-white text-decoration-none">Services</a></li>
+                        <li><a href="contact.html" target="_blank" class="text-white text-decoration-none">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 mb-4">
                     <h6 class="fw-bold">Contact</h6>
-                    <p class="opacity-75 m-0">Email: anshulvishwkarma58@gmail.com</p>
+                    <p class="opacity-75 m-0">Email: <i> anshulvishwkarma58@gmail.com</i></p>
                     <p class="opacity-75 m-0">Phone: +91 8962407636</p>
                 </div>
                 <!-- Script -->
