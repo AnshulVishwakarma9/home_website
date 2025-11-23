@@ -1,20 +1,45 @@
 body {
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.card-group {
-    text-shadow: 2px 2px 6px black;
-}
-
-.card {
-    margin: 20px;
+.banner {
+    height: 320px;
+    overflow: hidden;
+    position: relative;
 
 }
 
-.card-group img {
-    height: 400px;
+.bg-color {
+    background-color: rgba(20, 20, 23, 0.893);
 }
 
-.img-fluid {
-    height: 500px;
+.txtShadow {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+}
+
+.color {
+    background-color: rgb(36, 40, 42);
+}
+
+
+.banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-img-top {
+
+    width: auto;
+    height: 20rem;
+    object-fit: cover;
+
 }
