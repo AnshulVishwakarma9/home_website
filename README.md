@@ -50,7 +50,11 @@ root/
    ```bash
    cd home_website
    ```
-3. Open any `.html` file in your browser.
+3. Open in VS Code:
+
+   ```bash
+   code .
+   ```
 
 No build tools or dependencies are required.
 
