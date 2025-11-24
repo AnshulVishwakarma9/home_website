@@ -33,7 +33,7 @@
 <body class="bg-color text-light">
   <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
     <div class="container-fluid">
-      <button class=" btn navbar-brand">
+      <button onclick="goBack()" class=" btn navbar-brand">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
           class="bi bi-arrow-left-square" viewBox="0 0 16 16">
           <path fill-rule="evenodd"
@@ -41,12 +41,12 @@
         </svg>
         Back
       </button>
-      <div aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Library</li>
-        </ol>
-      </div>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Projects</li>
+      </ol>
+
     </div>
   </nav>
   <!-- Cards -->

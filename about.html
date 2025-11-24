@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>About-Us</title>
-    <meta name="description"
-        content="Digital Tech Hub provides the latest tech news, tutorials, and online tools designed to simplify your digital life.">
-    <meta name="keywords" content="tech news, tutorials, digital tools, technology updates">
-    <meta name="author" content="Anshul Vishwakarma">
-
-
-    <link rel="canonical" href="https://anshulvishwakarma9.github.io/home_website/">
+  <title>About</title>
+  <meta name="description"
+    content="Digital Tech Hub provides the latest tech news, tutorials, and online tools designed to simplify your digital life.">
+  <meta name="keywords" content="tech news, tutorials, digital tools, technology updates">
+  <meta name="author" content="Anshul Vishwakarma">
 
 
-
-    <link rel="icon" href="favicon_io/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="favicon_io/favicon.io/site.webmanifest">
+  <link rel="canonical" href="https://anshulvishwakarma9.github.io/home_website/">
 
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon_io/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/favicon.io/site.webmanifest">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-      <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+
+<body class="bg-color text-light font-family:Arial, sans-serif;">
+  <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
     <div class="container-fluid">
       <button class=" btn navbar-brand">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
@@ -40,11 +42,103 @@
       <div aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Library</li>
+          <li class="breadcrumb-item active" aria-current="page">About</li>
         </ol>
       </div>
     </div>
   </nav>
-    
+
+
+
+  <!-- Hero Section -->
+  <section class="py-5 text-center">
+    <div class="container">
+      <h1 class="fw-bold mb-3">About Me</h1>
+      <p class="text-light fs-5">A creative developer passionate about modern web design.</p>
+    </div>
+  </section>
+
+  <!-- About Content -->
+  <section class="container py-5">
+    <div class="row align-items-center g-5">
+
+      <div class="col-md-5">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?q=10"
+          class="img-fluid rounded-circle rounded shadow" alt="profile">
+      </div>
+
+      <div class="col-md-7">
+        <h2 class="fw-bold mb-3">Who I Am</h2>
+        <p class="mb-3" style="line-height:1.7;">
+          I am a dedicated web developer who enjoys creating fast, responsive,
+          and visually engaging websites. My work focuses on combining logical structure
+          with attractive UI to deliver an impactful user experience.
+        </p>
+
+        <h4 class="fw-bold mt-4 mb-2">My Skills</h4>
+        <div class="row">
+          <div class="col-6 mb-2"><i class="bi bi-code-slash"></i> HTML / CSS / JS</div>
+          <div class="col-6 mb-2"><i class="bi bi-bootstrap-fill"></i> Bootstrap</div>
+          <div class="col-6 mb-2"><i class="bi bi-laptop"></i> Responsive Design</div>
+          <div class="col-6 mb-2"><i class="bi bi-palette-fill"></i> UI/UX</div>
+        </div>
+
+        <button class="btn btn-primary mt-4" onclick="window.location.href='contact.html'">
+          Contact Me
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Animated Stats -->
+  <section class="py-5 bg-dark">
+    <div class="container text-center">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h2 class="fw-bold counter" data-target="3">0</h2>
+          <p>Years Experience</p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="fw-bold counter" data-target="50">0</h2>
+          <p>Projects Completed</p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="fw-bold counter" data-target="20">0</h2>
+          <p>Happy Clients</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+  <!-- Counter Animation -->
+  <script>
+    const counters = document.querySelectorAll('.counter');
+    counters.forEach(counter => {
+      counter.innerText = '0';
+      const update = () => {
+        const target = +counter.getAttribute('data-target');
+        const current = +counter.innerText;
+        const increment = target / 100;
+
+        if (current < target) {
+          counter.innerText = Math.ceil(current + increment);
+          setTimeout(update, 20);
+        } else {
+          counter.innerText = target;
+        }
+      };
+      update();
+    });
+  </script>
 </body>
+
 </html>
