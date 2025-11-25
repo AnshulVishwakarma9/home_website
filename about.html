@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
+  <title>NEXAvex/About</title>
   <meta name="description"
     content="Digital Tech Hub provides the latest tech news, tutorials, and online tools designed to simplify your digital life.">
   <meta name="keywords" content="tech news, tutorials, digital tools, technology updates">
@@ -29,96 +29,106 @@
 </head>
 
 <body class="bg-color text-light font-family:Arial, sans-serif;">
- <nav class="navbar navbar-dark bg-dark border-bottom border-body shadow-sm" data-bs-theme="dark">
-  <div class="container-fluid d-flex align-items-center justify-content-between">
+  <nav class="navbar navbar-dark bg-dark border-bottom border-body shadow-sm" data-bs-theme="dark">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
 
-    <!-- Back Button -->
-    <button onclick="goBack()" class="btn text-light d-flex align-items-center gap-2">
-      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
-        class="bi bi-arrow-left-square" viewBox="0 0 16 16">
-        <path fill-rule="evenodd"
-          d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
-      </svg>
-      Back
-    </button>
+      <!-- Back Button -->
+      <button onclick="goBack()" class="btn text-light d-flex align-items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+          class="bi bi-arrow-left-square" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+        </svg>
+        Back
+      </button>
 
-    <!-- Breadcrumb -->
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb m-0">
-        <li class="breadcrumb-item">
-          <a href="index.html" class="text-decoration-none text-light">Home</a>
-        </li>
-        <li class="breadcrumb-item active text-light" aria-current="page">Contact</li>
-      </ol>
-    </nav>
+      <!-- Breadcrumb -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb m-0">
+          <li class="breadcrumb-item">
+            <a href="index.html" class="text-decoration-none text-light">Home</a>
+          </li>
+          <li class="breadcrumb-item active text-light" aria-current="page">Contact</li>
+        </ol>
+      </nav>
+
+    </div>
+  </nav>
+
+
+
+
+ 
+<!-- About Hero Section -->
+<section class="py-5 text-center bg-dark opacity-75 text-light">
+  <div class="container">
+    <h1 class="fw-bold mb-3 text-shadow display-5">About Me</h1>
+    <p class="fs-5 opacity-75">A creative developer passionate about modern web design.</p>
+  </div>
+</section>
+
+<!-- About Content -->
+<section class="container py-5">
+  <div class="row align-items-center g-5">
+
+    <div class="col-lg-5 text-center">
+      <img
+        src="https://images.unsplash.com/photo-1752350434997-8f6366faa0c3?q=10&w=880&auto=format&fit=crop"
+        class="img-fluid rounded-circle shadow-lg"
+        alt="Profile Image"
+        style="max-width: 320px;">
+    </div>
+
+    <div class="col-lg-7">
+      <h2 class="fw-bold txtShadow  mb-3">Who I Am</h2>
+      <p class="mb-3" style="line-height:1.8;">
+        I am a dedicated web developer who enjoys creating fast, responsive,
+        and visually engaging websites. I combine a strong sense of design with
+        clean, professional code to deliver smooth user experiences.
+      </p>
+
+      <h4 class="fw-bold mt-4 mb-3">My Skills</h4>
+
+      <div class="row text-muted  fw-bold  fs-6">
+        <div class="col-6 text-success mb-2"><i class="bi bi-code-slash me-2 text-danger"></i>HTML / CSS / JS</div>
+        <div class="col-6  text-success mb-2"><i class="bi bi-bootstrap-fill me-2 text-danger"></i>Bootstrap</div>
+        <div class="col-6  text-success mb-2"><i class="bi bi-phone text-danger me-2"></i>Responsive Design</div>
+        <div class="col-6  text-success mb-2"><i class="bi bi-palette-fill me-2 text-danger"></i>UI / UX</div>
+      </div>
+
+      <button class="btn txtShadow  btn-primary btn-lg mt-4 px-4"
+        onclick="window.location.href='contact.html'">
+        Contact Me
+      </button>
+    </div>
 
   </div>
-</nav>
+</section>
 
+<!-- Animated Stats -->
+<section class="py-5 bg-dark text-light">
+  <div class="container text-center">
+    <div class="row g-4">
 
-
-
-  <!-- Hero Section -->
-  <section class="py-5 text-center">
-    <div class="container">
-      <h1 class="fw-bold mb-3">About Me</h1>
-      <p class="text-light fs-5">A creative developer passionate about modern web design.</p>
-    </div>
-  </section>
-
-  <!-- About Content -->
-  <section class="container py-5">
-    <div class="row align-items-center g-5">
-
-      <div class="col-md-5">
-        <img
-          src="https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?q=10"
-          class="img-fluid rounded-circle rounded shadow" alt="profile">
+      <div class="col-md-4">
+        <h2 class="fw-bold counter display-6" data-target="1">0</h2>
+        <p class="opacity-75">Years Experience</p>
       </div>
 
-      <div class="col-md-7">
-        <h2 class="fw-bold mb-3">Who I Am</h2>
-        <p class="mb-3" style="line-height:1.7;">
-          I am a dedicated web developer who enjoys creating fast, responsive,
-          and visually engaging websites. My work focuses on combining logical structure
-          with attractive UI to deliver an impactful user experience.
-        </p>
+      <div class="col-md-4">
+        <h2 class="fw-bold counter display-6" data-target="5">0</h2>
+        <p class="opacity-75">Projects Completed</p>
+      </div>
 
-        <h4 class="fw-bold mt-4 mb-2">My Skills</h4>
-        <div class="row">
-          <div class="col-6 mb-2"><i class="bi bi-code-slash"></i> HTML / CSS / JS</div>
-          <div class="col-6 mb-2"><i class="bi bi-bootstrap-fill"></i> Bootstrap</div>
-          <div class="col-6 mb-2"><i class="bi bi-laptop"></i> Responsive Design</div>
-          <div class="col-6 mb-2"><i class="bi bi-palette-fill"></i> UI/UX</div>
-        </div>
-
-        <button class="btn btn-primary mt-4" onclick="window.location.href='contact.html'">
-          Contact Me
-        </button>
+      <div class="col-md-4">
+        <h2 class="fw-bold counter display-6" data-target="2">0</h2>
+        <p class="opacity-75">Happy Clients</p>
       </div>
 
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Animated Stats -->
-  <section class="py-5 bg-dark">
-    <div class="container text-center">
-      <div class="row g-4">
-        <div class="col-md-4">
-          <h2 class="fw-bold counter" data-target="3">0</h2>
-          <p>Years Experience</p>
-        </div>
-        <div class="col-md-4">
-          <h2 class="fw-bold counter" data-target="50">0</h2>
-          <p>Projects Completed</p>
-        </div>
-        <div class="col-md-4">
-          <h2 class="fw-bold counter" data-target="20">0</h2>
-          <p>Happy Clients</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Footer -->
   <div id="footer"></div>
@@ -127,26 +137,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
 
-  <!-- Counter Animation -->
-  <script>
-    const counters = document.querySelectorAll('.counter');
-    counters.forEach(counter => {
-      counter.innerText = '0';
-      const update = () => {
-        const target = +counter.getAttribute('data-target');
-        const current = +counter.innerText;
-        const increment = target / 100;
-
-        if (current < target) {
-          counter.innerText = Math.ceil(current + increment);
-          setTimeout(update, 20);
-        } else {
-          counter.innerText = target;
-        }
-      };
-      update();
-    });
-  </script>
+ 
 </body>
 
 </html>
